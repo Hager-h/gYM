@@ -842,3 +842,13 @@ a {
     height: 40vh;
   }
 }
+.navbar .nav-link::after {
+    content: '';
+    width: 74%;
+    height: 1px;
+    background-color: #f67831;
+    position: absolute;
+    top: 44px;
+    left: 2px;
+    display: none;
+}

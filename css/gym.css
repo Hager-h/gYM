@@ -103,17 +103,17 @@ body {
   color: white;
 }
 
-.navbar .nav-link::after {
-  content: '';
-  width: 74%;
-  height: 1px;
-  background-color: #f67831;
-  position: absolute;
-  top: 36px;
-  left: 9px;
-  display: none;
-}
 
+.navbar .nav-link::after {
+    content: '';
+    width: 74%;
+    height: 2px;
+    background-color: #f67831;
+    position: absolute;
+    top: 43px;
+    left: 2px;
+    display: none;
+}
 .card-one {
   background-color: transparent;
   border: none;
